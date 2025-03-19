@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riddle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Riddle Game</h1>
+    <p>Can you solve this riddle?</p>
+  </header>
+
+  <section id="riddle-section">
+    <div id="riddle">
+      <p>What has keys but can't open locks?</p>
+    </div>
+
+    <input type="text" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Submit</button>
+
+    <div id="feedback"></div> <!-- This is where feedback will be displayed -->
+  </section>
+
+  <footer>
+    <a href="index.html">Go Back to Home</a>
+  </footer>
+
+  <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
