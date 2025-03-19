@@ -55,7 +55,7 @@ button:hover {
 /* Feedback Styling */
 #feedback {
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -65,4 +65,11 @@ button:hover {
 
 #feedback.red {
   color: red;
+}
+
+/* Hint Styling */
+#hint {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #FFA500; /* Orange color for hint */
 }
