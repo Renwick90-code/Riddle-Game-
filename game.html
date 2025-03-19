@@ -8,11 +8,21 @@
 </head>
 <body>
 
+  <!-- Header Section -->
   <header>
     <h1>Riddle Game</h1>
     <p>Can you solve all the riddles?</p>
   </header>
 
+  <!-- Navigation Section -->
+  <nav>
+    <ul>
+      <li><a href="game.html">Start the Game</a></li> <!-- Game page link -->
+      <li><a href="about.html">About the Game</a></li> <!-- About page link -->
+    </ul>
+  </nav>
+
+  <!-- Main Game Section -->
   <section id="riddle-section">
     <div id="riddle">
       <p id="current-riddle">What has keys but can't open locks?</p>
@@ -21,13 +31,14 @@
     <input type="text" id="answer" placeholder="Enter your answer">
     <button onclick="checkAnswer()">Submit</button>
 
-    <div id="feedback"></div> <!-- Feedback (smiley or sad face) -->
+    <div id="feedback"></div>
 
-    <button onclick="giveHint()">💡 Get a hint</button> <!-- Light Bulb Button for a Hint -->
+    <button onclick="giveHint()">💡 Get a hint</button>
 
-    <div id="hint"></div> <!-- Display the hint (1 letter) -->
+    <div id="hint"></div>
   </section>
 
+  <!-- Footer Section -->
   <footer>
     <a href="index.html">Go Back to Home</a>
   </footer>
