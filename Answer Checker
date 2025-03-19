@@ -1,0 +1,14 @@
+// This function checks the answer and gives feedback
+function checkAnswer() {
+  const answer = document.getElementById('answer').value.toLowerCase();  // Get user input
+  const feedback = document.getElementById('feedback');  // The feedback section
+  
+  // Correct answer is "keyboard"
+  if (answer === "keyboard") {
+    feedback.textContent = "Correct! Well done!";
+    feedback.className = 'green';  // Add class for styling
+  } else {
+    feedback.textContent = "Oops! Try again.";
+    feedback.className = 'red';  // Add class for styling
+  }
+}
