@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riddle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Welcome Page -->
+  <header>
+    <h1>Welcome to the Riddle Game</h1>
+    <p>Can you solve all the riddles?</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="game.html">Start the Game</a></li>
+      <li><a href="#about">About the Game</a></li> <!-- This link seems to be missing content, you might want to add an About section or remove the link. -->
+    </ul>
+  </nav>
+
+  <footer>
+    <p>&copy; 2025 Riddle Game | All rights reserved</p>
+  </footer>
+
+</body>
+</html>
