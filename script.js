@@ -54,6 +54,7 @@ function moveToNextRiddle() {
       document.getElementById('current-riddle').textContent = "Congratulations! You've solved all the riddles! 🎉";
       document.getElementById('answer').style.display = 'none'; // Hide the input box
       document.getElementById('hint').style.display = 'none'; // Hide the hint section
+      endGame(); // Call endGame when all riddles are solved
     }
   }, 2000); // After 2 seconds, change the riddle
 }
@@ -63,4 +64,9 @@ function giveHint() {
   // Display the first letter of the correct answer
   const hintLetter = riddles[currentRiddleIndex].answer.charAt(0); // Get the first letter of the answer
   document.getElementById('hint').textContent = `Hint: The answer starts with the letter "${hintLetter}".`;
+}
+
+// Function to show the thank you link after the game ends
+function endGame() {
+  document.getElementById('thank-you-link').style.display = 'block'; // Show the thank you link
 }
